@@ -1,0 +1,31 @@
+# Notion Desktop keyboard shortcuts
+# Platform: Windows
+
+app: notion
+aliases: ["notion desktop"]
+process_name: "Notion.exe"
+
+shortcuts:
+  # Navigation
+  ctrl+k: "Quick search / jump to page"
+  ctrl+p: "Quick search (alternative)"
+  ctrl+f: "Search within page"
+  ctrl+[: "Go back"
+  ctrl+]: "Go forward"
+  ctrl+l: "Copy page URL"
+  ctrl+n: "New page"
+
+  # Formatting
+  ctrl+b: "Bold"
+  ctrl+i: "Italic"
+  ctrl+u: "Underline"
+  ctrl+shift+s: "Strikethrough"
+  ctrl+e: "Inline code"
+
+  # Block operations
+  ctrl+d: "Duplicate block"
+  ctrl+/: "Open block menu"
+  ctrl+enter: "Modify block (open page, toggle checkbox)"
+  ctrl+shift+l: "Toggle dark/light mode"
+
+elements: []

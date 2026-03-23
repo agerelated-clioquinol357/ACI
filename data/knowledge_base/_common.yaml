@@ -1,0 +1,168 @@
+# Common keyboard shortcuts and icon patterns for all applications.
+# This is part of the OpenClaw ACI knowledge base — community shareable.
+
+shortcuts:
+  # Universal shortcuts (Windows)
+  ctrl+c: copy
+  ctrl+x: cut
+  ctrl+v: paste
+  ctrl+z: undo
+  ctrl+y: redo
+  ctrl+s: save
+  ctrl+a: select_all
+  ctrl+f: find
+  ctrl+p: print
+  ctrl+n: new
+  ctrl+o: open
+  ctrl+w: close_tab
+  ctrl+t: new_tab
+  ctrl+shift+t: reopen_closed_tab
+  ctrl+tab: next_tab
+  ctrl+shift+tab: previous_tab
+  alt+f4: close_window
+  alt+tab: switch_window
+  f1: help
+  f2: rename
+  f5: refresh
+  f11: fullscreen
+  escape: cancel
+  enter: confirm
+  delete: delete
+  home: go_to_start
+  end: go_to_end
+
+  # Chinese input shortcuts
+  ctrl+space: toggle_ime
+  ctrl+shift: switch_ime
+
+common_icons:
+  - pattern: "three_horizontal_lines"
+    label: "hamburger menu"
+    tag: "button"
+    action: click
+
+  - pattern: "magnifying_glass"
+    label: "search"
+    tag: "button"
+    action: click
+
+  - pattern: "x_mark"
+    label: "close"
+    tag: "button"
+    action: click
+
+  - pattern: "gear"
+    label: "settings"
+    tag: "button"
+    action: click
+
+  - pattern: "plus_sign"
+    label: "add / new"
+    tag: "button"
+    action: click
+
+  - pattern: "minus_sign"
+    label: "remove"
+    tag: "button"
+    action: click
+
+  - pattern: "pencil"
+    label: "edit"
+    tag: "button"
+    action: click
+
+  - pattern: "trash_can"
+    label: "delete"
+    tag: "button"
+    action: click
+
+  - pattern: "arrow_left"
+    label: "back"
+    tag: "button"
+    action: click
+
+  - pattern: "arrow_right"
+    label: "forward"
+    tag: "button"
+    action: click
+
+  - pattern: "house"
+    label: "home"
+    tag: "button"
+    action: click
+
+  - pattern: "star"
+    label: "favorite / bookmark"
+    tag: "button"
+    action: click
+
+  - pattern: "bell"
+    label: "notifications"
+    tag: "button"
+    action: click
+
+  - pattern: "user_avatar"
+    label: "user profile"
+    tag: "button"
+    action: click
+
+  - pattern: "three_dots_vertical"
+    label: "more options"
+    tag: "button"
+    action: click
+
+  - pattern: "three_dots_horizontal"
+    label: "more options"
+    tag: "button"
+    action: click
+
+  - pattern: "download_arrow"
+    label: "download"
+    tag: "button"
+    action: click
+
+  - pattern: "upload_arrow"
+    label: "upload"
+    tag: "button"
+    action: click
+
+  - pattern: "share"
+    label: "share"
+    tag: "button"
+    action: click
+
+  - pattern: "refresh_circle"
+    label: "refresh"
+    tag: "button"
+    action: click
+
+  - pattern: "lock"
+    label: "locked / security"
+    tag: "icon"
+    action: click
+
+  - pattern: "eye"
+    label: "show / visibility"
+    tag: "button"
+    action: click
+
+  - pattern: "eye_slash"
+    label: "hide"
+    tag: "button"
+    action: click
+
+  # Window control buttons (title bar)
+  - pattern: "minimize_dash"
+    label: "minimize window"
+    tag: "button"
+    action: click
+
+  - pattern: "maximize_square"
+    label: "maximize window"
+    tag: "button"
+    action: click
+
+  - pattern: "restore_overlapping_squares"
+    label: "restore window"
+    tag: "button"
+    action: click

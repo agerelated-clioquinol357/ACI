@@ -1,0 +1,50 @@
+# Google Chrome keyboard shortcuts and UI patterns
+# Platform: Windows
+
+app: chrome
+aliases: ["google chrome", "谷歌浏览器", "chromium"]
+window_class: "Chrome_WidgetWin_1"
+process_name: "chrome.exe"
+
+shortcuts:
+  # Tab Management
+  ctrl+t: 新建标签页 (new tab)
+  ctrl+w: 关闭当前标签页 (close tab)
+  ctrl+shift+t: 恢复关闭的标签页 (reopen closed tab)
+  ctrl+tab: 下一个标签页 (next tab)
+  ctrl+shift+tab: 上一个标签页 (previous tab)
+  ctrl+1: 切换到第1个标签页 (switch to tab 1)
+  ctrl+9: 切换到最后一个标签页 (switch to last tab)
+
+  # Window
+  ctrl+n: 新建窗口 (new window)
+  ctrl+shift+n: 新建无痕窗口 (new incognito window)
+  f11: 切换全屏 (toggle fullscreen)
+
+  # Navigation
+  ctrl+l: 聚焦地址栏 (focus address bar)
+  alt+left: 后退 (back)
+  alt+right: 前进 (forward)
+  ctrl+r: 刷新页面 (reload)
+  ctrl+shift+r: 强制刷新 (hard reload)
+  f5: 刷新页面 (reload)
+
+  # Page
+  ctrl+f: 页面内查找 (find on page)
+  ctrl+d: 收藏当前页面 (bookmark page)
+  ctrl+h: 打开历史记录 (open history)
+  ctrl+j: 打开下载记录 (open downloads)
+  ctrl+shift+delete: 清除浏览数据 (clear browsing data)
+
+  # Zoom
+  ctrl+=: 放大 (zoom in)
+  ctrl+-: 缩小 (zoom out)
+  ctrl+0: 重置缩放 (reset zoom)
+
+  # Developer
+  f12: 打开开发者工具 (open DevTools)
+  ctrl+shift+j: 打开控制台 (open console)
+  ctrl+shift+i: 打开开发者工具 (open DevTools)
+  ctrl+u: 查看源代码 (view source)
+
+elements: []

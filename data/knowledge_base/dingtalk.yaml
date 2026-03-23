@@ -1,0 +1,33 @@
+# 钉钉 (DingTalk Desktop) 快捷键和UI模式
+# Platform: Windows
+
+app: dingtalk
+aliases: ["钉钉", "ding talk", "dingding"]
+window_class: "StandardFrame"
+process_name: "DingTalk.exe"
+
+shortcuts:
+  # 全局
+  ctrl+shift+a: 截图 (screenshot)
+  ctrl+shift+f: 全局搜索 (global search)
+  ctrl+shift+d: 打开DING窗口 (open DING window)
+
+  # 聊天
+  enter: 发送消息 (send message)
+  ctrl+enter: 消息换行 (new line in message)
+  ctrl+f: 搜索聊天记录 (search chat history)
+  ctrl+g: 跳转未读会话 (jump to unread conversation)
+
+  # 文档编辑 (钉钉文档内)
+  ctrl+b: 粗体 (bold)
+  ctrl+i: 斜体 (italic)
+  ctrl+u: 下划线 (underline)
+  ctrl+shift+x: 删除线 (strikethrough)
+  ctrl+k: 插入链接 (insert link)
+  ctrl+s: 保存 (save)
+  ctrl+z: 撤销 (undo)
+  ctrl+shift+z: 重做 (redo)
+
+  # 注意: 快捷键可在 头像>设置与隐私>快捷键 中自定义
+
+elements: []

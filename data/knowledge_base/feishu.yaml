@@ -1,0 +1,54 @@
+# 飞书 (Feishu/Lark Desktop) 快捷键和UI模式
+# Platform: Windows
+
+app: feishu
+aliases: ["飞书", "lark", "bytedance feishu"]
+window_class: "Chrome_WidgetWin_1"
+process_name: "Feishu.exe"
+
+shortcuts:
+  # 通用
+  ctrl+shift+w: 显示/隐藏飞书窗口 (show/hide Feishu)
+  ctrl+k: 全局搜索 (global search)
+  ctrl+f: 页面内搜索 (in-page search)
+  ctrl+,: 打开设置 (open settings)
+  ctrl+/: 查看所有快捷键 (view all shortcuts)
+  f11: 切换全屏 (toggle fullscreen)
+  f5: 刷新页面 (reload page)
+
+  # 截图与录屏
+  ctrl+shift+a: 截图 (screenshot)
+  alt+shift+r: 录屏 (screen recording)
+
+  # 聊天与消息
+  enter: 发送消息 (send message, default)
+  ctrl+shift+up: 跳转上一个未读会话 (previous unread chat)
+  ctrl+shift+down: 跳转下一个未读会话 (next unread chat)
+  ctrl+d: 标记会话已完成 (mark chat as done)
+  ctrl+g: 显示/隐藏消息筛选 (show/hide feed filter)
+
+  # 会议
+  ctrl+shift+d: 静音/取消静音 (mute/unmute)
+  ctrl+shift+v: 开启/关闭摄像头 (start/stop video)
+  ctrl+shift+f: 全屏会议 (fullscreen meeting)
+  ctrl+shift+m: 最小化会议 (minimize meeting)
+
+  # 标签管理
+  ctrl+w: 关闭当前页面 (close current page)
+  ctrl+shift+t: 恢复关闭的标签 (reopen closed tab)
+  ctrl+tab: 下一个标签 (next tab)
+  ctrl+shift+tab: 上一个标签 (previous tab)
+
+  # 其他
+  ctrl+s: 保存图片/视频 (save image/video)
+  ctrl+h: 打开历史记录 (open history)
+  ctrl+n: 新建任务 (new task)
+  ctrl+shift+y: 设置状态 (set status)
+  ctrl+shift+c: 复制当前链接 (copy current URL)
+  ctrl+=: 放大 (zoom in)
+  ctrl+-: 缩小 (zoom out)
+  ctrl+0: 重置缩放至100% (reset zoom)
+  ctrl+left: 后退 (go back)
+  ctrl+right: 前进 (go forward)
+
+elements: []

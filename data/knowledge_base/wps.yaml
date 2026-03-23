@@ -1,0 +1,40 @@
+# WPS Office 快捷键和UI模式
+# Platform: Windows
+
+app: wps
+aliases: ["wps office", "金山文档", "wps文字"]
+window_class: "KxTopLevelWnd"
+process_name: "wps.exe"
+
+shortcuts:
+  # 文件操作
+  ctrl+n: 新建文档 (new document)
+  ctrl+o: 打开文件 (open file)
+  ctrl+s: 保存 (save)
+  f12: 另存为 (save as)
+  ctrl+p: 打印 (print)
+  ctrl+w: 关闭当前文档 (close document)
+
+  # 编辑
+  ctrl+z: 撤销 (undo)
+  ctrl+y: 重做 (redo)
+  ctrl+c: 复制 (copy)
+  ctrl+x: 剪切 (cut)
+  ctrl+v: 粘贴 (paste)
+  ctrl+a: 全选 (select all)
+
+  # 查找
+  ctrl+f: 查找 (find)
+  ctrl+h: 查找替换 (find and replace)
+
+  # 格式
+  ctrl+b: 粗体 (bold)
+  ctrl+i: 斜体 (italic)
+  ctrl+u: 下划线 (underline)
+  ctrl+e: 居中对齐 (center align)
+  ctrl+l: 左对齐 (left align)
+  ctrl+r: 右对齐 (right align)
+  ctrl+k: 插入超链接 (insert hyperlink)
+  ctrl+shift+g: 字数统计 (word count)
+
+elements: []

@@ -1,0 +1,53 @@
+# VS Code keyboard shortcuts and UI patterns
+# Platform: Windows
+
+app: vscode
+aliases: ["vs code", "visual studio code", "code"]
+window_class: "Chrome_WidgetWin_1"
+process_name: "Code.exe"
+
+shortcuts:
+  # Command Palette & Navigation
+  ctrl+shift+p: 打开命令面板 (command palette)
+  ctrl+p: 快速打开文件 (quick open)
+  ctrl+g: 跳转到行 (go to line)
+  ctrl+shift+o: 跳转到符号 (go to symbol)
+
+  # Search
+  ctrl+f: 文件内查找 (find in file)
+  ctrl+h: 文件内替换 (replace in file)
+  ctrl+shift+f: 跨文件搜索 (search across files)
+  ctrl+shift+h: 跨文件替换 (replace across files)
+
+  # Editor
+  ctrl+x: 剪切行 (cut line)
+  ctrl+c: 复制行 (copy line)
+  ctrl+shift+k: 删除整行 (delete line)
+  alt+up: 上移行 (move line up)
+  alt+down: 下移行 (move line down)
+  shift+alt+up: 向上复制行 (copy line up)
+  shift+alt+down: 向下复制行 (copy line down)
+  ctrl+enter: 在下方插入空行 (insert line below)
+  ctrl+shift+enter: 在上方插入空行 (insert line above)
+  ctrl+d: 选中下一个相同单词 (select next occurrence)
+  ctrl+shift+l: 选中所有相同单词 (select all occurrences)
+  ctrl+/: 切换行注释 (toggle line comment)
+  ctrl+shift+\: 跳转到匹配括号 (jump to matching bracket)
+  f2: 重命名符号 (rename symbol)
+
+  # Panel & Sidebar
+  ctrl+b: 切换侧边栏 (toggle sidebar)
+  ctrl+j: 切换终端 (toggle terminal)
+  ctrl+shift+e: 显示资源管理器 (show explorer)
+  ctrl+shift+x: 显示扩展 (show extensions)
+  ctrl+shift+g: 显示源代码管理 (show source control)
+  ctrl+shift+d: 显示调试 (show debug)
+  ctrl+,: 打开设置 (open settings)
+
+  # Tab & Window
+  ctrl+tab: 切换编辑器标签 (switch editor tab)
+  ctrl+w: 关闭编辑器 (close editor)
+  ctrl+\: 拆分编辑器 (split editor)
+  ctrl+shift+n: 新建窗口 (new window)
+
+elements: []

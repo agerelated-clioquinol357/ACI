@@ -1,0 +1,34 @@
+# Telegram Desktop keyboard shortcuts
+# Platform: Windows
+
+app: telegram
+aliases: ["telegram desktop", "tdesktop"]
+process_name: "Telegram.exe"
+
+shortcuts:
+  # Navigation
+  ctrl+tab: "Next chat"
+  ctrl+shift+tab: "Previous chat"
+  ctrl+f: "Search current chat"
+  ctrl+0: "Jump to Saved Messages"
+
+  # Chat
+  up: "Edit last sent message"
+  ctrl+enter: "New line (don't send)"
+  ctrl+o: "Send file"
+
+  # Formatting
+  ctrl+b: "Bold"
+  ctrl+i: "Italic"
+  ctrl+u: "Underline"
+  ctrl+shift+x: "Strikethrough"
+  ctrl+shift+m: "Monospace"
+  ctrl+k: "Add URL link"
+  ctrl+shift+p: "Spoiler text"
+
+  # Window
+  ctrl+q: "Quit"
+  ctrl+w: "Minimize to tray"
+  ctrl+l: "Lock (requires password)"
+
+elements: []

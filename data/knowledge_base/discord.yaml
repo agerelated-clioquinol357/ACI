@@ -1,0 +1,35 @@
+# Discord Desktop keyboard shortcuts
+# Platform: Windows
+
+app: discord
+aliases: ["discord desktop"]
+window_class: "Chrome_WidgetWin_1"
+process_name: "Discord.exe"
+
+shortcuts:
+  # Navigation
+  ctrl+k: "Quick Switcher (search servers, channels, DMs)"
+  ctrl+alt+right: "Next server"
+  ctrl+alt+left: "Previous server"
+  alt+up: "Previous channel"
+  alt+down: "Next channel"
+  alt+shift+up: "Previous unread channel"
+  alt+shift+down: "Next unread channel"
+
+  # Chat
+  up: "Edit last message (when input is empty)"
+  ctrl+b: "Bold text"
+  ctrl+i: "Italic text"
+
+  # Search
+  ctrl+f: "Search current channel"
+  ctrl+shift+f: "Search all channels"
+
+  # Voice & Video
+  ctrl+shift+m: "Mute/unmute"
+  ctrl+shift+d: "Deafen/undeafen"
+
+  # UI
+  ctrl+/: "Show all keyboard shortcuts"
+
+elements: []

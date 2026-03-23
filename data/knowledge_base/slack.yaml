@@ -1,0 +1,37 @@
+# Slack Desktop keyboard shortcuts
+# Platform: Windows
+
+app: slack
+aliases: ["slack desktop"]
+process_name: "slack.exe"
+
+shortcuts:
+  # Navigation
+  ctrl+k: "Jump to conversation"
+  ctrl+j: "Jump to most recent unread"
+  alt+shift+up: "Previous unread channel"
+  alt+shift+down: "Next unread channel"
+  alt+up: "Previous channel in sidebar"
+  alt+down: "Next channel in sidebar"
+  alt+left: "Back in history"
+  alt+right: "Forward in history"
+  ctrl+shift+l: "Browse channels"
+
+  # Chat
+  ctrl+n: "Compose new message"
+  ctrl+f: "Search current conversation"
+  ctrl+g: "Search all conversations"
+  ctrl+o: "Upload file"
+
+  # Formatting
+  ctrl+b: "Bold text"
+  ctrl+i: "Italic text"
+
+  # UI
+  ctrl+,: "Open preferences"
+  ctrl+.: "Toggle right sidebar"
+  ctrl+/: "Show all keyboard shortcuts"
+  ctrl+shift+y: "Set status"
+  ctrl+shift+a: "Open all unreads"
+
+elements: []

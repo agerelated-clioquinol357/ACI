@@ -1,0 +1,34 @@
+# 微信 (WeChat Desktop) 快捷键和UI模式
+# Platform: Windows
+
+app: wechat
+aliases: ["weixin", "微信", "wechat desktop", "wechat", "wx"]
+window_class: "WeChatMainWndForPC"
+alt_window_classes: ["WeChatLoginWndForPC"]
+process_name: "WeChat.exe"
+# 备注: 部分系统上进程名可能为 Weixin.exe 或 WXWork.exe (企业微信)
+# find_by_process_name 会通过 aliases 进行模糊匹配
+alt_process_names: ["Weixin.exe", "WXWork.exe"]
+
+shortcuts:
+  # 全局快捷键 (任何界面可用)
+  ctrl+alt+w: 显示/隐藏微信主界面 (show/hide WeChat)
+  alt+a: 截图工具 (screenshot tool)
+
+  # 聊天快捷键
+  enter: 发送消息 (send message, default)
+  ctrl+enter: 换行 (line break, default setting)
+  
+
+  # 搜索
+  ctrl+f: 搜索联系人/聊天记录 (search contacts/chat history)
+
+  # 编辑
+  ctrl+a: 全选 (select all)
+  ctrl+c: 复制 (copy)
+  ctrl+v: 粘贴 (paste)
+  ctrl+z: 撤销 (undo)
+
+  # 注意: 发送方式 (Enter/Ctrl+Enter) 可在 设置>快捷键 中配置
+
+elements: []

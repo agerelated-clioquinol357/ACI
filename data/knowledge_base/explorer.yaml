@@ -1,0 +1,39 @@
+# Windows 文件资源管理器快捷键
+# Platform: Windows
+
+app: explorer
+aliases: ["文件资源管理器", "file explorer", "windows explorer", "资源管理器"]
+window_class: "CabinetWClass"
+process_name: "explorer.exe"
+
+shortcuts:
+  # 打开
+  win+e: 打开文件资源管理器 (open File Explorer)
+
+  # 导航
+  alt+d: 聚焦地址栏 (focus address bar)
+  ctrl+e: 聚焦搜索框 (focus search box)
+  ctrl+f: 聚焦搜索框 (focus search box)
+  alt+left: 后退 (back)
+  alt+right: 前进 (forward)
+  alt+up: 返回上级目录 (go to parent folder)
+
+  # 窗口
+  ctrl+n: 打开新窗口 (new window)
+  ctrl+w: 关闭当前窗口 (close window)
+
+  # 文件操作
+  ctrl+shift+n: 新建文件夹 (new folder)
+  f2: 重命名 (rename)
+  delete: 删除到回收站 (delete to recycle bin)
+  shift+delete: 永久删除 (permanent delete)
+  alt+enter: 打开属性 (open properties)
+  ctrl+c: 复制 (copy)
+  ctrl+x: 剪切 (cut)
+  ctrl+v: 粘贴 (paste)
+
+  # 视图
+  alt+p: 切换预览窗格 (toggle preview pane)
+  ctrl+shift+e: 展开到当前文件夹 (expand to current folder)
+
+elements: []
